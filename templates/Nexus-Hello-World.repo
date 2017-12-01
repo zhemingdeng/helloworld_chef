@@ -1,0 +1,10 @@
+[snapshots]
+name=Snapshots
+baseurl=http://172.31.2.114:8081/nexus/content/repositories/snapshots/
+enabled=1
+protect=0
+gpgcheck=0
+metadata_expire=30s
+autorefresh=1
+type=rpm-md
+
