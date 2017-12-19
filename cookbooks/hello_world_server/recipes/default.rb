@@ -49,3 +49,8 @@ bash 'restart_tomcat' do
     EOH
 end
 
+bash 'stop_firewall' do
+  code <<-EOH
+    systemctl stop firewalld
+    EOH
+end
